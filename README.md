@@ -1,19 +1,19 @@
 # aws-database-services
-# 📘 Basic SQL and DynamoDB Practice Guide
+## Basic SQL and DynamoDB Practice Guide
 
-## 🧠 Overview
+### Overview
 
 This project demonstrates basic **CRUD operations** (Create, Read, Update, Delete) using:
-- A **relational database** (SQL - MySQL or MariaDB)
+- A **relational database** (SQL - MySQL)
 - A **NoSQL database** (AWS DynamoDB)
 
 It includes SQL query examples and a beginner-friendly DynamoDB key-value store created via the **AWS Console**.
 
 ---
 
-## 🾃 Part 1: SQL Operations (Using `employees` Table)
+## Part 1: SQL Operations (Using `employees` Table)
 
-### ✅ Table Creation
+### Table Creation
 
 ```sql
 CREATE TABLE employees (
@@ -24,7 +24,7 @@ CREATE TABLE employees (
 );
 ```
 
-### 🔁 Insert Sample Data
+###  Insert Sample Data
 
 ```sql
 INSERT INTO employees (name, position, salary)
@@ -39,7 +39,7 @@ VALUES
 ('Alan Turing', 'Cryptanalyst', 115000.00);
 ```
 
-### 📖 Read (Select Data)
+###  Read (Select Data)
 
 ```sql
 -- View all employees
@@ -54,11 +54,11 @@ SELECT * FROM employees WHERE name = 'Grace Hopper';
 ```sql
 -- Update salary of a specific employee
 UPDATE employees
-SET salary = 96000.00
+SET salary = 95000.00
 WHERE name = 'Grace Hopper';
 ```
 
-### ❌ Delete Data
+### Delete Data
 
 ```sql
 -- Delete employees with salary below 90,000
@@ -71,9 +71,9 @@ WHERE salary < 90000.00;
 
 ---
 
-## 🟢 Part 2: AWS DynamoDB (Key-Value Store)
+##  Part 2: AWS DynamoDB (Key-Value Store)
 
-### 🛠️ Steps to Set Up in AWS Console
+###  Steps to Set Up in AWS Console
 
 1. Log in to [AWS Console](https://aws.amazon.com/console/)
 2. Search for **DynamoDB** and open it
@@ -95,67 +95,47 @@ WHERE salary < 90000.00;
 }
 ```
 
-3. Add more entries like:
-```json
-{
-  "Key": "user456",
-  "Name": "Alice Smith"
-}
-```
-
 ---
 
-### 🔎 Query Items
+###  Query Items
 
 - Go to **Query** tab
 - Search with: `Key = user123`
 
 ---
 
-### 📝 Update Items
+###  Update Items
 
 - Go to **Items** tab → Select item → Click **Edit**
 - Change value and click **Save**
 
 ---
 
-### 🗑️ Delete Items
+###  Delete Items
 
 - Select item → Click **Actions** → Delete item
 
 ---
 
-## 🖼️ Screenshots (Replace With Your Own)
+##  Screenshots 
 
-### 📸 SQL Table and Output
+###  SQL Table and Output
 - ![SQL Insert Result](screenshots/sql-insert.png)
 - ![SQL Query Result](screenshots/sql-query.png)
 - ![SQL Update Result](screenshots/sql-update.png)
 
-### 📸 DynamoDB Console
+###  DynamoDB Console
 - ![DynamoDB Table Created](screenshots/dynamodb-create.png)
 - ![DynamoDB Add Item](screenshots/dynamodb-add-item.png)
 - ![DynamoDB Query Result](screenshots/dynamodb-query.png)
 
 ---
 
-## ✅ Summary
+##  Summary
 
 - Practiced basic SQL operations
 - Set up a DynamoDB key-value store via AWS Console
 - Learned to perform Create, Read, Update, Delete operations on both systems
 
 ---
-
-## 📌 Notes
-
-- DynamoDB does **not require schema**, unlike SQL
-- Every item in DynamoDB must have a **unique key**
-- SQL enforces data types and table structure up front
-
----
-
-## 👨‍💻 Author
-
-Beginner learning SQL and NoSQL on the cloud ☁️
 
