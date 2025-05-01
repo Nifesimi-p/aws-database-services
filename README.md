@@ -49,7 +49,7 @@ SELECT * FROM employees;
 SELECT * FROM employees WHERE name = 'Grace Hopper';
 ```
 
-### ✏️ Update Data
+### Update Data
 
 ```sql
 -- Update salary of a specific employee
@@ -66,7 +66,7 @@ DELETE FROM employees
 WHERE salary < 90000.00;
 ```
 
-> ⚠️ If you get an error like `Error Code: 1175`, disable "Safe Updates" in MySQL Workbench:
+>  If you get an error like `Error Code: 1175`, disable "Safe Updates" in MySQL Workbench:
 > Preferences → SQL Editor → Uncheck "Safe Updates" → Reconnect
 
 ---
@@ -84,14 +84,14 @@ WHERE salary < 90000.00;
 
 ---
 
-### ✍️ Add Items (Key-Value Pairs)
+### Add Items (Key-Value Pairs)
 
 1. Go to the `KeyValueStore` table → **Items** tab → **Create item**
 2. Use JSON or form view:
 ```json
 {
-  "Key": "user123",
-  "Name": "John Doe"
+  "P_Key": "name",
+  "pets": "Precious Nife"
 }
 ```
 
@@ -100,7 +100,7 @@ WHERE salary < 90000.00;
 ###  Query Items
 
 - Go to **Query** tab
-- Search with: `Key = user123`
+- Search with: `Key = pets`
 
 ---
 
@@ -120,18 +120,18 @@ WHERE salary < 90000.00;
 ##  Screenshots 
 
 ###  SQL Table and Output
-- ![SQL Create Result](screenshots/sql-insert.png)
-- ![SQL Update Result](screenshots/sql-query.png)
-- ![SQL Delete Result](screenshots/sql-update.png)
-- ![READ/RETRIEVE](screenshots/sql-update.png)
-- ![RDS-INSTANCE](screenshots/sql-update.png)
+- ![SQL Create Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/CREATE.png)
+- ![SQL Update Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/UPDATE.png)
+- ![SQL Delete Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/DELETE.png)
+- ![READ/RETRIEVE](https://github.com/Nifesimi-p/aws-database-services/blob/main/RETRIEVE.png)
+- ![RDS-INSTANCE](https://github.com/Nifesimi-p/aws-database-services/blob/main/RDS-INSTANCE.png)
 
 
 
 
 ###  DynamoDB Console
-- ![DynamoDB Table Created](screenshots/dynamodb-create.png)
-- ![DynamoDB Query Result](screenshots/dynamodb-query.png)
+- ![DynamoDB Table Created](https://github.com/Nifesimi-p/aws-database-services/blob/main/DynamoDB1.png)
+- ![DynamoDB Query Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/DYNAMODB2.png)
 
 ---
 
