@@ -120,13 +120,17 @@ WHERE salary < 90000.00;
 ##  Screenshots 
 
 ###  SQL Table and Output
-- ![SQL Insert Result](screenshots/sql-insert.png)
-- ![SQL Query Result](screenshots/sql-query.png)
-- ![SQL Update Result](screenshots/sql-update.png)
+- ![SQL Create Result](screenshots/sql-insert.png)
+- ![SQL Update Result](screenshots/sql-query.png)
+- ![SQL Delete Result](screenshots/sql-update.png)
+- ![READ/RETRIEVE](screenshots/sql-update.png)
+- ![RDS-INSTANCE](screenshots/sql-update.png)
+
+
+
 
 ###  DynamoDB Console
 - ![DynamoDB Table Created](screenshots/dynamodb-create.png)
-- ![DynamoDB Add Item](screenshots/dynamodb-add-item.png)
 - ![DynamoDB Query Result](screenshots/dynamodb-query.png)
 
 ---
