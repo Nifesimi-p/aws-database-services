@@ -120,19 +120,18 @@ WHERE salary < 90000.00;
 ##  Screenshots 
 
 ###  SQL Table and Output
-- ![SQL Create Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/CREATE.png)
-- ![SQL Update Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/UPDATE.png)
-- ![SQL Delete Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/DELETE.png)
-- ![READ/RETRIEVE](https://github.com/Nifesimi-p/aws-database-services/blob/main/RETRIEVE.png)
-- ![RDS-INSTANCE](https://github.com/Nifesimi-p/aws-database-services/blob/main/RDS-INSTANCE.png)
+  - ![SQL Create Result](./images/CREATE.png)
+- ![SQL Update Result](./images/UPDATE.png)
+- ![SQL Delete Result](./images/DELETE.png)
+- ![READ/RETRIEVE](./images/RETRIEVE.png)
+- ![RDS-INSTANCE](./images/RDS-INSTANCE.png)
 
 
 
 
 ###  DynamoDB Console
-- ![DynamoDB Table Created](https://github.com/Nifesimi-p/aws-database-services/blob/main/DynamoDB1.png)
-- ![DynamoDB Query Result](https://github.com/Nifesimi-p/aws-database-services/blob/main/DYNAMODB2.png)
-
+- ![DynamoDB Table Created](./images/DynamoDB1.png)
+- ![DynamoDB Query Result](./images/DYNAMODB2.png)
 ---
 
 ##  Summary
